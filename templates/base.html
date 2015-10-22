@@ -43,7 +43,9 @@
 	        {% for p in PAGES %}
 			  	<a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a>
 					{% endfor %}
-			  	<a href="{{ SITEURL }}/extra/cv.fr.pdf" target="_blank">CV</a>
+					{% for l in PELICAN_SOBER_HEADER_LINKS %}
+			  	<a href="{{ SITEURL }}/{{ l[1] }}" target="_blank">{{ l[0] }}</a>
+			  	{% endfor %}
 	      </nav>
 	    {% endif %}
 		<a href="{{ SITEURL }}" class="title">{{ SITENAME }}</a>
