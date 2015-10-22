@@ -44,7 +44,7 @@ body {
 }
 
 header {
-  border-top: 4px solid #4271AE;
+  border-top: 4px solid #A70C1D;
   border-bottom: 1px solid #D6D6D6;
   height: 50px;
   line-height: 50px;
@@ -65,7 +65,7 @@ header {
 .sidebar {
   display: table-cell;
   width: 25%;
-  padding: 0 20px 1em 3%;  
+  padding: 0 20px 1em 3%;
 }
 
 footer {
@@ -107,12 +107,14 @@ header .feeds a:active {
 
 header .pages {
   float: right;
-  padding-right: 20px;
+/*  padding-right: 20px;*/
 }
 
 header .pages a {
   font-size: 1.1em;
+  padding-right: 30px;
 }
+
 
 
 /* Sidebar */
@@ -154,7 +156,7 @@ a {
 a:hover, a:active {
   text-decoration: none;
   border-bottom: 1px dotted #4271AE;
-  color: #4271AE;
+  color: #A70C1D;
 }
 
 .literal {
@@ -196,7 +198,7 @@ article.summary > div {
 
 article.full .metadata,
 article.summary .metadata {
-  padding: 1%;  
+  padding: 1%;
   font-style: italic;
   text-align: right;
 }
@@ -247,7 +249,7 @@ ol.archive li .tags
 
 .social a {}
 
-.social i { 
+.social i {
   float: left;
   margin-right: 3px;
   padding-top: 4px;
